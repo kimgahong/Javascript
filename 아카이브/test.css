@@ -1,0 +1,11 @@
+[data-trigger] {
+    opacity: 0;
+    position: relative;
+    top: 20px;
+    transition: 0.5s ease-out;
+}
+
+[data-trigger].visible{
+    opacity: 1;
+    top: 0;
+}
